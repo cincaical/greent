@@ -116,3 +116,74 @@ h1 {
 }
 
 /* Add more styles as needed */
+
+body {
+  font-family: 'Bebas Neue', cursive;
+  background-color: #f4efe7; /* Light cream beige background color */
+  color: #333; /* Dark text color */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  border: 5px solid #556b2f; /* Olive green border color */
+  border-radius: 10px; /* Optional: Adds rounded corners */
+  overflow: hidden; /* Optional: Ensures border doesn't increase size */
+  max-width: 100%; /* Ensure container doesn't exceed the screen width */
+}
+
+header {
+  background-color: #556b2f; /* Muted green background color for the header */
+  padding: 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  max-height: 50px; /* Set the maximum height for the logo */
+  margin-right: 10px; /* Adjust the margin between the logo and text */
+}
+
+h1 {
+  color: #fff; /* White text color for the header */
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.tabs button {
+  background-color: #f4efe7; /* Light cream beige background color for tab buttons */
+  border: 2px solid #556b2f; /* Olive green border color for tab buttons */
+  padding: 10px;
+  cursor: pointer;
+}
+
+.tabs button:hover {
+  background-color: #556b2f; /* Olive green background color on hover */
+  color: #fff; /* White text color on hover */
+}
+
+.tab-content {
+  display: none;
+  padding: 20px;
+}
+
+/* Frame the website within the viewport */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* Ensure images scale to fit the screen width */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Add more styles as needed */
